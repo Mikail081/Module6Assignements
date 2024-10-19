@@ -1,0 +1,108 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Styling */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Registration Card Styling */
+.registration-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Form Row Styling */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+/* Label and Input Styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Gender Options Styling */
+.gender-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Button Styling */
+.button-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel-btn,
+.submit-btn {
+    padding: 10px 20px;
+    border: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+}
+
+.submit-btn {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* Card Alignment */
+.registration-card {
+    text-align: center;
+}
